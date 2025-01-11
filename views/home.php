@@ -12,12 +12,12 @@
     <a href="http://localhost:8000/content/id/5001/page/1">Go to Content Page (GET)</a><br><br>
 
 
-    <a href="http://localhost:8000/form">Go to Content Page (POST)</a><br><br>
+    <a href="http://localhost:8000/form">Resive JSON Data form AJAX Example</a><br><br>
 
     <!-- ฟอร์มสำหรับ POST -->
     <form action="http://localhost:8000/submit" method="post" style="display: inline;">
-        <input type="hidden" name="name" value="John">
-        <input type="hidden" name="message" value="Hello, this is a test message!">
+        <input type="text" name="name" value="John">
+        <input type="text" name="message" value="Hello, this is a test message!">
         <button type="submit">Go to Submit Page (POST)</button>
     </form>
 </body>
